@@ -7,7 +7,6 @@ import { verifiers } from "../../utils/config";
 import "./style.scss";
 
 function Login() {
-  const [chain, setChain] = useState("ethereum");
   async function handleLogin() {
     const sdkInstance = new OpenLogin({ clientId: verifiers.google.clientId, iframeUrl: "http://beta.openlogin.com" });
     await sdkInstance.login({
@@ -18,7 +17,7 @@ function Login() {
   return (
     <div className="loginContainer">
       <div className="loginContainer">
-        <h1 style={{ textAlign: "center" }}>Openlogin ethereum boilerplate</h1>
+        <h1 style={{ textAlign: "center" }}>Openlogin x Ethereum</h1>
         <div onClick={handleLogin} className="btn">
           Login
         </div>

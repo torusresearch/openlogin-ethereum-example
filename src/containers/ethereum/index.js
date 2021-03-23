@@ -45,7 +45,7 @@ function Ethereum() {
     <div>
       <PageHeader
         className="site-page-header"
-        title="Openlogin ethereum boilerplate"
+        title="Openlogin x Ethereum"
         extra={[
           <Button key="1" type="primary" onClick={handleLogout}>
             Logout
